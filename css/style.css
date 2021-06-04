@@ -38,6 +38,14 @@ a {
   padding-top: 20px;
 }
 
+.contact-message {
+  font-size: 20px;
+}
+
+.email {
+  font-size: 16px;
+}
+
 .contacts {
   width: 80%;
   margin-left: auto;
@@ -71,6 +79,10 @@ a {
   bottom: 0;
   line-height: 70px;
   font-size: 24px;
+}
+
+.social-network {
+  font-size: 16px;
 }
 
 footer {
