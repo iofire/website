@@ -1,0 +1,20 @@
+.btn {
+  border-style: none;
+  border-radius: 7px;
+  padding: 5px 20px;
+  font-size: 1em;
+  font-family: inherit;
+  font-weight: bold;
+  color: #332e2e;
+  background: #e2e2e2;
+  cursor: pointer;
+}
+
+.w140 {
+  width: 140px;
+}
+
+.btn:hover {
+  background-color: #33edac;
+  color: #132d43;
+}

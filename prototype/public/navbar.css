@@ -1,0 +1,35 @@
+.nav-bar {
+  position: absolute;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.nav-bar img {
+  height: 60px;
+}
+
+.nav-bar .left-content {
+  float: left;
+  padding: 10px;
+  margin-left: 8%;
+}
+
+.nav-bar .right-content {
+  float: right;
+  padding: 10px;
+  margin-right: 8%;
+  display: flex;
+  flex-direction: row;
+}
+
+.links-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-link {
+  color: #f9f9f9;
+  font-size: 1.2em;
+  padding: 10px;
+  margin-right: 60px;
+}
