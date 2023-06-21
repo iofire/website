@@ -3,40 +3,44 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="stylesheet" href="./public/reset.css">
-  <link rel="stylesheet" href="./public/generics.css">
-  <link rel="stylesheet" href="./public/homepage.css">
-  <link rel="stylesheet" href="./public/navbar.css">
+  <link rel="stylesheet" href="public/stylesheet/reset.css">
+  <link rel="stylesheet" href="public/stylesheet/generics.css">
+  <link rel="stylesheet" href="public/stylesheet/homepage.css">
+  <link rel="stylesheet" href="public/stylesheet/navbar.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <title>IOfire</title>
-  <!-- TODO: Add IOfire favicon! -->
+  <link rel="apple-touch-icon" sizes="180x180" href="public/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="public/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="public/favicon/favicon-16x16.png">
+  <link rel="manifest" href="public/favicon/site.webmanifest">
 </head>
 
 <body>
-  <div class="nav-bar">
-    <div class="left-content">
-      <img src="./public/logo-iofire-off-white.png" alt="IOfire Logo" />
-    </div>
-    <div class="right-content">
-      <ul class="links-list">
-        <li class="navbar-link"><a href="#">Sobre Nós</a></li>
-        <li class="navbar-link"><a href="#">Soluções</a></li>
-        <li class="navbar-link"><a href="#">Contate-nos</a></li>
-        <li class="navbar-link"><a href="#">Carreiras</a></li>
-      </ul>
-      <button class="btn basic w140">LOGIN</button>
+  <div class="navbar">
+    <div class="navbar-content">
+      <div class="left-content">
+        <img src="public/images/logo-iofire-off-white.png" alt="IOfire Logo" />
+      </div>
+      <div class="right-content">
+        <ul class="links-list">
+          <a href="#"><li class="navbar-link">Home</li></a>
+          <a href="#"><li class="navbar-link">Soluções</li></a>
+          <a href="#"><li class="navbar-link">Sobre Nós</li></a>
+          <a href="#"><li class="navbar-link">Contate-nos</li></a>
+        </ul>
+      </div>
     </div>
   </div>
   <div class="page-container">
     <div class="page-section" id="welcome-page">
-      <div id="welcome-banner">
-        <h1>ENGENHARIA CONTRA INCÊNDIO</h1>
-        <h2>E muitas outras soluções de segurança para o seu negócio!</h2>
-        <p>Conheça nossas soluções em Segurança e Proteção contra Incêndios</p>
+      <div class="background-colouring">
+        <div id="welcome-banner">
+          <h1>ENGENHARIA CONTRA <br>INCÊNDIO</h1>
+          <h2>E muitas outras soluções de segurança<br> para o seu negócio!</h2>
+          <!-- <p>Conheça nossas soluções em Segurança e Proteção contra Incêndios</p> -->
+        </div>
       </div>
     </div>
     <div class="page-section" id="solutions">
@@ -46,7 +50,7 @@
         <p>A IOfire acompanha todas as fases do desenvolvimento de seu projeto de Prevenção contra Incêndios!</p>
         <div id="solutions-cards">
           <div class="card">
-            <img src="./assets/icons/icon-project01.svg"></img>
+            <img src="public/assets/icons/icon-project01.svg"></img>
             <h2>Projeto</h2>
           </div>
           <div class="card">
