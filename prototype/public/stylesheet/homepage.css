@@ -14,7 +14,7 @@ body {
 
 .page-section {
   width: 100%;
-  scroll-snap-align: start;
+  /* scroll-snap-align: start; */
   max-width: 1920px;
   margin: 0 auto 0 auto;
 }
@@ -80,8 +80,9 @@ body {
 
 #solutions-section h1 {
   margin: 18px 0px;
-  font-size: 4em;
+  font-size: 3em;
   font-weight: bold;
+  color: #fbfbfb;
 }
 
 #solutions-section h3 {

@@ -17,6 +17,19 @@
   <link rel="manifest" href="public/favicon/site.webmanifest">
 </head>
 
+<script lang="javascritp">
+  window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 90 || document.documentElement.scrollTop > 90) {
+    document.getElementsByClassName("navbar")[0].classList.add("mini");
+    console.log(Here);
+  } else if (document.body.scrollTop < 100 || document.documentElement.scrollTop < 100){
+    document.getElementsByClassName("navbar")[0].classList.remove("mini");
+  }
+}
+</script>
+
 <body>
   <div class="navbar">
     <div class="navbar-content">
@@ -24,12 +37,10 @@
         <img src="public/images/logo-iofire-off-white.png" alt="IOfire Logo" />
       </div>
       <div class="right-content">
-        <ul class="links-list">
-          <a href="#"><li class="navbar-link">Home</li></a>
-          <a href="#"><li class="navbar-link">Soluções</li></a>
-          <a href="#"><li class="navbar-link">Sobre Nós</li></a>
-          <a href="#"><li class="navbar-link">Contate-nos</li></a>
-        </ul>
+        <a href="#" class="navbar-link active">Home</a>
+        <a href="#" class="navbar-link">Soluções</a>
+        <a href="#" class="navbar-link">Sobre Nós</a>
+        <a href="#" class="navbar-link">Contate-nos</a>
       </div>
     </div>
   </div>
