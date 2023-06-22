@@ -41,7 +41,7 @@ body {
 
 #welcome-banner {
   vertical-align: middle;
-  color: #f8f8f8;
+  color: #fbfbfb;
   padding-left: 25px;
   border-left: solid 5px #33edac;
   width: 80%;
@@ -52,19 +52,102 @@ body {
 
 #welcome-banner h1 {
   font-family: 'Roboto Slab', sans-serif;
-  font-weight: 450;
-  font-size:4.6em;
+  font-weight: 400;
+  font-size:4.5em;
   line-height: 1.1em;
 }
 
 #welcome-banner h2 {
   /* font-family: 'Roboto Slab', sans-serif; */
   font-weight: 350;
-  font-size: 1.8em;
+  font-size: 1.3em;
   margin-top: 15px;
   margin-bottom: 15px;
-  line-height: 1.3em;
+  line-height: 1.5em;
   width: 60%;
+}
+
+#welcome-banner a {
+  display: block;
+  height: 40px;
+  width: 220px;
+  border-radius: 8px;
+  background-color: #33edac;
+  color: #132d43;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+#welcome-banner a:hover {
+  background-color: #29bc89;
+  color: #043222;
+}
+
+#segments {
+  border-top: solid 2px #33edac;
+  margin-bottom: 100px;
+}
+
+#segments .seg-text {
+  text-align: center;
+  padding: 30px;
+  color: #132d43;
+}
+
+#segments .seg-text h1 {
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: 500;
+  font-size:2.5em;
+  color: #132d43;
+  line-height: 60px;
+}
+
+#segments .seg-text p {
+  font-size:1.1em;
+  font-weight: 300;
+  line-height: 1.5em;
+}
+
+#segments .seg-text p strong{
+  font-weight: 500;
+}
+
+#segments .seg-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 1em;
+  line-height: 1.5em;
+  margin: 0 auto;
+  justify-content: center;
+  width: 75%;
+}
+
+#segments .seg-card {
+  margin: 10px;
+  flex-grow: 1;
+  min-width: 300px;
+  height: 200px;
+  text-align: center;
+  color: #fbfbfb;
+  background-color: #1c3f5e;
+  padding: 10px;
+  border-bottom: 4px solid #33edac;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#segments .seg-card img {
+  padding: 10px;
+  height: 60px;
+}
+
+#segments .seg-card:hover {
+  background-color: #213749;
 }
 
 #solutions {
@@ -103,11 +186,13 @@ body {
 #solutions-cards {
   padding-top: 30px;
   display: flex;
+  flex-wrap: nowrap;
   align-items: center;
   justify-content: space-between;
 }
 
 #solutions-cards .card {
+  width: 20%;
   background-color: #d6d6d6;
   display: block;
   text-align: center;

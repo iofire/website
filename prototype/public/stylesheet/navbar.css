@@ -1,5 +1,14 @@
-.navbar {
+/* .navbar {
   position: fixed;
+  overflow: hidden;
+  width: 100%;
+  z-index: 99;
+  padding-top: 30px;
+  transition: 0.5s ease-in-out;
+} */
+
+.navbar {
+  position: absolute;
   overflow: hidden;
   width: 100%;
   z-index: 99;
@@ -15,16 +24,13 @@
   margin: 0 auto 0 auto;
   max-width: 1920px;
   padding: 30px 150px;
-  transition: height 0.5s ease-in-out;
 }
 
 .navbar img {
-  transition: 0.5s ease-in-out;
   height: 70px;
 }
 
 .navbar .left-content {
-  transition: 0.5s ease-in-out;
   padding: 5px;
 }
 
