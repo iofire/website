@@ -1,0 +1,61 @@
+.pivma-section {
+    background-color: pink;
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#pivma-text {
+    width: 50%;
+}
+
+#pivma-animation {
+    width: 50%;
+}
+
+#pivma.text {
+    width: 50%;
+}
+
+#pivma .arc {
+    position: absolute;
+}
+
+.pivma-animation {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.arc.project {
+
+}
+
+.arc.installation {
+  transform-box: fill-box;
+  transform-origin: left bottom;
+  transform: rotate(71deg);
+  color: aquamarine;
+}
+
+.arc.comissioning {
+    transform-box: fill-box;
+    transform-origin: left bottom;
+    transform: rotate(142deg);
+    color: aquamarine;
+}
+
+.arc.maintenance {
+    transform-box: fill-box;
+    transform-origin: left bottom;
+    transform: rotate(213deg);
+    color: aquamarine;
+}
+
+.arc.improvement {
+  transform-box: fill-box;
+  transform-origin: left bottom;
+  transform: rotate(284deg);
+}
+
+  
