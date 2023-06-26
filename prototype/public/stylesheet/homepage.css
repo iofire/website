@@ -4,21 +4,54 @@ body {
   font-family: 'Oxygen', Verdana, Arial, sans-serif;
 }
 
+.section-content {
+  max-width: 1980px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#welcome {
+  display: flex;
+  align-items: center;
+  background-color: antiquewhite;
+}
+
 #welcome-banner {
   font-family: 'Oxygen', Verdana, Arial, sans-serif;
   font-size: 100%;
   color: #fbfbfb;
   border-left: solid 5px #33edac;
   padding-left: 25px;
+  margin-left: 10vh;
+  margin-top: 30px;
 }
 
 #welcome-banner h1 {
   font-family: 'Roboto Slab', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 4.5em;
+  font-weight: 500;
+  font-size: 10vh;
+  line-height: 1.1em;
+  margin-bottom: 15px;
+}
+
+#welcome-banner p {
+  font-size: 22pt;
+  line-height: 1.3em;
+  margin-bottom: 10px;
 }
 
 .btn-green {
   background-color: #33edac;
+  padding: 10px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0px;
+  line-height: 55px;
+  color: #072f42;
+}
+
+.btn-green:hover {
+  background-color: #27b684;
 }
 
 

@@ -7,10 +7,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="public/stylesheet/reset.css">
   <link rel="stylesheet" href="public/stylesheet/structure.css">
+  <link rel="stylesheet" href="public/stylesheet/reset.css">
+  <link rel="stylesheet" href="public/stylesheet/animations.css">
   <link rel="stylesheet" href="public/stylesheet/generics.css">
   <link rel="stylesheet" href="public/stylesheet/homepage.css">
   <link rel="stylesheet" href="public/stylesheet/navbar.css">
   <link rel="stylesheet" href="public/stylesheet/pivma.css">
+  <link rel="stylesheet" media="(max-width: 800px)" href="public/stylesheet/small-screen/structure.css">
+  <link rel="stylesheet" media="(max-width: 800px)" href="public/stylesheet/small-screen/homepage.css">
+  <link rel="stylesheet" media="(max-width: 800px)" href="public/stylesheet/small-screen/animations.css">
+  <link rel="stylesheet" media="(max-width: 800px)" href="public/stylesheet/small-screen/navbar.css">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -20,18 +27,24 @@
   <link rel="manifest" href="public/favicon/site.webmanifest">
 </head>
 
-<!-- <script lang="javascritp">
-  window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 90 || document.documentElement.scrollTop > 90) {
-    document.getElementsByClassName("navbar")[0].classList.add("mini");
-    console.log(Here);
-  } else if (document.body.scrollTop < 100 || document.documentElement.scrollTop < 100){
-    document.getElementsByClassName("navbar")[0].classList.remove("mini");
-  }
+<script lang="javascritp">
+function menuOnClick() {
+  document.getElementById("menu-bar").classList.toggle("change");
+  document.getElementById("nav").classList.toggle("change");
+  document.getElementById("menu-bg").classList.toggle("change-bg");
 }
-</script> -->
+
+//   window.onscroll = function() {scrollFunction()};
+
+// function scrollFunction() {
+//   if (document.body.scrollTop > 90 || document.documentElement.scrollTop > 90) {
+//     document.getElementsByClassName("navbar")[0].classList.add("mini");
+//     console.log(Here);
+//   } else if (document.body.scrollTop < 100 || document.documentElement.scrollTop < 100){
+//     document.getElementsByClassName("navbar")[0].classList.remove("mini");
+//   }
+// }
+</script>
 
 <body>
   <div class="navbar">
@@ -39,21 +52,25 @@ function scrollFunction() {
       <div class="left-content">
         <img src="public/images/logo-iofire-off-white.png" alt="IOfire Logo" />
       </div>
-      <div class="right-content">
-        <a href="#" class="navbar-link active">Home</a>
-        <a href="#" class="navbar-link">Soluções</a>
-        <a href="#" class="navbar-link">Sobre Nós</a>
-        <a href="#" class="navbar-link">Contate-nos</a>
-      </div>
+      <label>
+        <input class="hamb-menu" type="checkbox"/>
+        <span class="menu"> <span class="hamburger"></span> </span>
+        <div class="right-content">
+          <a href="#" class="navbar-link active">Home</a>
+          <a href="#" class="navbar-link">Soluções</a>
+          <a href="#" class="navbar-link">Sobre Nós</a>
+          <a href="#" class="navbar-link">Contate-nos</a>
+        </div>
+      </label>
     </div>
   </div>
   <div class="landpage-content">
     <div class="page-section h95 bkgd-img" id="welcome">
-      <div class="section-content">
+      <div class="section-content anm-welcome-slide">
         <div id="welcome-banner">
           <h1>ENGENHARIA CONTRA <br>INCÊNDIO</h1>
           <p>E muitas outras soluções de segurança<br> para o seu negócio!</p>
-          <a class="btn-green">Saiba mais!</a>
+          <a href="#" class="btn-green">Saiba mais!</a>
         </div>
       </div>
     </div>

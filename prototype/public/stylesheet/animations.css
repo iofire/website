@@ -1,0 +1,11 @@
+.anm-welcome-slide {
+    animation: 1.5s slide-right 0s forwards;
+    animation-timing-function: ease-out;
+    transform: translateX(-100%);
+}
+
+@keyframes slide-right {
+    to {
+        transform: translateX(0);
+    }
+}

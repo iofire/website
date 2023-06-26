@@ -22,7 +22,7 @@
   justify-content: space-between;
   margin: 0 auto 0 auto;
   max-width: 1920px;
-  padding: 30px 150px;
+  padding: 40px 10vh;
 }
 
 .navbar img {
@@ -77,4 +77,8 @@
 
 .navbar.mini .navbar-content {
   padding: 0px 150px;
+}
+
+.hamb-menu {
+  display: none;
 }
