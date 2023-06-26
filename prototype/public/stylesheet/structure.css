@@ -29,3 +29,9 @@
 .h50 {
     height: 50vh;
 }
+
+p {
+    font-size: 1.1em;
+    line-height: 1.4em;
+    font-weight: 300;
+}

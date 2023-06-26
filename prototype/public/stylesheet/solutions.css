@@ -1,0 +1,39 @@
+#solutions-banner {
+    color: #132d43;
+    padding: 25px; 
+    text-align: center;
+}
+
+#solutions-banner h1 {
+    font-family: 'Roboto Slab', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    font-size: 5vh;
+    line-height: 1.1em;
+    margin-bottom: 15px;
+}
+
+.solutions-container h2 {
+    text-align: left;
+    font-family: 'Roboto Slab', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    font-size: 3.6vh;
+    line-height: 1.1em;
+    margin-bottom: 30px;
+}
+
+/* .solution-content p {
+    font-size: 1.1em;
+    line-height: 1.4em;
+    font-weight: 300;
+} */
+
+.solutions-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.solution-content {
+    flex-grow: 1;
+    padding: 30px 10px;
+    margin: 10px 5px;
+}
